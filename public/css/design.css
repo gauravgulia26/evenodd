@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 140px;
+  height: 700px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+form h1 {
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 1000px;
+  height: 600px;
+}
+
+.textbox {
+  margin: 10px;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+button[type="submit"] {
+  padding: 4px;
+  width: 200px;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+form::after {
+  content: " ";
+  background: url("/images/st1.jpg");
+  background-size: contain;
+  /* object-fit: contain; */
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 730px;
+  height: 730px;
+  z-index: -1;
+  opacity: 0.95;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.footer {
+  color: white;
+  position: relative;
+  bottom: -28px;
+}
+
+body {
+  background-color: wheat;
+  content: " ";
+  background: url("/images/st2.jpg");
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
