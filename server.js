@@ -3,6 +3,7 @@ const parser = require("body-parser");
 const path = require("path");
 const app = express();
 const name = require("ejs");
+
 app.use(parser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
